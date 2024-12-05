@@ -28,7 +28,7 @@
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-api</artifactId>
-    <version>3.14.0</version>
+    <version>4.26.0</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
@@ -43,15 +43,11 @@
     <artifactId>selenium-chromium-driver</artifactId>
     <version>4.26.0</version>
 </dependency>
-
-
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-chrome-driver</artifactId>
     <version>4.26.0</version>
 </dependency>
-
-
 </dependencies>
 </project>

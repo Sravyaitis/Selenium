@@ -10,6 +10,7 @@ public class Alerts {
 		// TODO Auto-generated method stub
 
 		WebDriver driver = new ChromeDriver();
+		
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		
 		String text = "Sravya";

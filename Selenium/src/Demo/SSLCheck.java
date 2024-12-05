@@ -17,16 +17,16 @@ public class SSLCheck {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Proxy proxy = new Proxy();
-		proxy.setHttpProxy("ipaddress:4444");
+//		Proxy proxy = new Proxy();
+//		proxy.setHttpProxy("ipaddress:4444");
 
 		ChromeOptions options = new ChromeOptions();
 		options.setAcceptInsecureCerts(true);
 		
-		options.setCapability("Proxy", proxy);
-		Map<String, Object> prefs = new HashMap<String,Object>();
-		prefs.put("download.default_directory", "/directory/path");
-		options.setExperimentalOption("pres", prefs);
+//		options.setCapability("Proxy", proxy);
+//		Map<String, Object> prefs = new HashMap<String,Object>();
+//		prefs.put("download.default_directory", "/directory/path");
+//		options.setExperimentalOption("pres", prefs);
 		
 		FirefoxOptions options1= new FirefoxOptions();
 		options1.setAcceptInsecureCerts(true);

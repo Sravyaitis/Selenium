@@ -20,9 +20,10 @@ public class FramesTest {
 		driver.switchTo().frame(driver.findElement(By.cssSelector("iframe.demo-frame"))); //tagname.classname
 		driver.findElement(By.id("draggable")).click();
 		
-		Actions a = new Actions(driver);
 		WebElement source = driver.findElement(By.id("draggable"));
 		WebElement target = driver.findElement(By.id("droppable"));
+		
+		Actions a = new Actions(driver);
 		a.dragAndDrop(source, target).build().perform();
 		
 		driver.switchTo().defaultContent();
